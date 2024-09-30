@@ -7,8 +7,6 @@ import Notification from "./components/Notification";
 
 import PersonsService from "./services/Persons";
 
-import "./index.css"
-
 const App = () => {
   const [persons, setPersons] = useState([]);
   const [newName, setNewName] = useState("");
